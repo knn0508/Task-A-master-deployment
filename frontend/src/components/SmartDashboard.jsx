@@ -353,7 +353,7 @@ const SmartDashboard = () => {
 
         const botMessage = {
           type: 'bot',
-          content: response.answer,
+          content: safeString(response.answer),
           document: response.document_used,
           responseType: response.type,
           timestamp: new Date().toISOString()
