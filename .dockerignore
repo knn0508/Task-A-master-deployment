@@ -1,0 +1,14 @@
+node_modules
+backend/__pycache__
+backend/venv
+backend/.env
+backend/chroma_db
+backend/documents
+backend/flask_session
+backend/example_docs
+frontend/node_modules
+frontend/dist
+.git
+.gitignore
+*.pyc
+__pycache__
